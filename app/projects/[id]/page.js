@@ -14,7 +14,7 @@ const projectsData = {
     color: "#FFB1A0",
     createdAt: "February 2025",
     skills: ["JavaScript", "Python", "Web Scraping"],
-    images: ["/project-1.png", "/project-1-detail-1.png", "/project-1-detail-2.png"],
+    images: ["/project-1.png", "/project-1-detail-1.png", "/assets/project-1-detail-2.png"],
     githubUrl: "https://github.com/adriantseee/snipes",
     inProgress: false,
     canViewGithub: false,
