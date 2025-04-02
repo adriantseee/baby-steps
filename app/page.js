@@ -9,7 +9,7 @@ export default function Home() {
       title: "Snipes",
       description: "An eBay web scraper to help find the best deals on Pokemon cards",
       color: "#FFB1A0",
-      image: "/project-1-detail-1.png",
+      image: "/assets/project-1-detail-1.png",
       link: "/projects/project-one",
       inProgress: false
     },
@@ -18,7 +18,7 @@ export default function Home() {
       title: "B'AI'seball",
       description: "Predicts what pitch is coming next for any MLB pitcher",
       color: "#A5E8B0",
-      image: "/project-2.png",
+      image: "/assets/project-2.png",
       link: "/projects/project-two",
       inProgress: false
     },
