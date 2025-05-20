@@ -10,7 +10,7 @@ const projectsData = {
   "project-one": {
     id: "project-one",
     title: "Snipes",
-    description: "An eBay web scraper to help find undervalued Pokemon cards. I personally really enjoy collecting Pokemon cards, so this project was a fun way to combine my interest in coding with my lifelong hobby (I can also justify it as an 'investment' to my parents).",
+    description: "A targeted eBay web scraper that identifies undervalued Pokémon cards in real-time, helping collectors snag hidden gems before anyone else. Efficiently built with Python, it blends my love of coding with a lifelong hobby. Plus, it's easier to justify buying cardboard as a financial strategy.",
     color: "#FFB1A0",
     createdAt: "February 2025",
     skills: ["JavaScript", "Python", "Web Scraping"],
@@ -18,46 +18,81 @@ const projectsData = {
     githubUrl: "https://github.com/adriantseee/snipes",
     inProgress: false,
     canViewGithub: false,
-    canViewKaggle: false
+    canViewKaggle: false,
+    canViewWebsite: false
   },
   "project-two": {
     id: "project-two",
-    title: "B'AI'seball",
-    description: "Predicts what pitch is coming next for any MLB pitcher. Though it isn't very accurate, it was a fun project to work on. It's hard to predict what pitch is coming next because there are so many factors that can affect a pitcher's decision-making.",
+    title: "TraveLLM",
+    description: "An intelligent chatbot designed to turn your travel interests into personalized, interactive itineraries, helping you discover your next favorite destination effortlessly. Powered by your own preferences and a bit of AI magic, it makes trip planning simpler. Nobody enjoys spending vacation time on spreadsheets.",
     color: "#A5E8B0",
-    createdAt: "February/March 2025",
-    skills: ["Python", "Jupyter Notebook", "Data Visualization", "Pandas", "Tensorflow", "Keras"],
+    createdAt: "February-March 2025",
+    skills: ["NextJS", "Cohere", "LLM", "CSS"],
     images: ["/assets/project-2.png", "/assets/project-2-detail-1.png", "/assets/project-2-detail-2.png"],
     inProgress: false,
     canViewGithub: false,
-    canViewKaggle: true,
-    kaggleUrl: "https://www.datacamp.com/datalab/w/ad23ba85-7705-4789-8d57-3ba2adac9480/edit"
+    canViewKaggle: false,
+    canViewWebsite: true,
+    websiteUrl: "https://gmaps-trip-planner.netlify.app/"
   },
   "project-three": {
     id: "project-three",
-    title: "Project Three",
-    description: "A weird web toy",
-    color: "#A0C8FF",
-    createdAt: "March 2025",
-    skills: ["JavaScript", "Three.js", "WebGL", "Interactive Design"],
-    images: ["/project3.jpg", "/project-3-detail-1.jpg", "/project-3-detail-2.jpg"],
-    githubUrl: "https://github.com/yourusername/project-three",
-    inProgress: true,
+    title: "B'AI'seball",
+    description: "A pitch-prediction AI designed to anticipate the next throw from MLB pitchers. While it's still its accuracy isnt perfect (~55%), I believe this idea holds promising potential as a strategic tool for baseball teams.",
+    color: "#A5E8B0",
+    createdAt: "March-April 2025",
+    skills: ["Python", "Jupyter Notebook", "Data Visualization", "Pandas", "Tensorflow", "Keras"],
+    images: ["/assets/project-3.png", "/assets/project-3-detail-1.png", "/assets/project-3-detail-2.png"],
+    inProgress: false,
     canViewGithub: false,
-    canViewKaggle: false
+    canViewKaggle: true,
+    canViewWebsite: false,
+    kaggleUrl: "https://www.datacamp.com/datalab/w/ad23ba85-7705-4789-8d57-3ba2adac9480/edit"
   },
   "project-four": {
     id: "project-four",
-    title: "Project Four",
-    description: "An interesting calculator",
+    title: "Travel Together (pt. 1)",
+    description: "A collaborative trip planner that brings Google Docs-style real-time editing to your travel itineraries. Coordinate seamlessly with friends. From personal experience, deciding on a restaurant is hard enough without version conflicts and mismatching ideas.",
     color: "#D7B5FF",
     createdAt: "April 2025",
-    skills: ["TypeScript", "React", "Tailwind CSS", "Mathematics"],
-    images: ["/project4.jpg", "/project-4-detail-1.jpg", "/project-4-detail-2.jpg"],
-    githubUrl: "https://github.com/yourusername/project-four",
-    inProgress: true,
+    skills: ["React", "Tailwind CSS", "WebSockets", "Supabase"],
+    images: ["/assets/project-4.png", "/assets/project-4-detail-1.png", "/assets/project-4-detail-2.png"],
+    githubUrl: "https://github.com/adriantseee/travel-together-pt-1",
+    inProgress: false,
     canViewGithub: false,
-    canViewKaggle: false
+    canViewKaggle: false,
+    canViewWebsite: true,
+    websiteUrl: "https://travel-together-psi.vercel.app/"
+  },
+  "project-five": {
+    id: "project-five",
+    title: "Travel Together (Maps Integration)",
+    description: "Enhanced with Google Maps API, this feature helps you pinpoint must-see locations and chart optimized routes directly within your shared itinerary. Whether searching by name or coordinates, it simplifies travel logistics significantly.",
+    color: "#D7B5FF",
+    createdAt: "April-May 2025",
+    skills: ["React", "Tailwind CSS", "Mapbox", "API"],
+    images: ["/assets/project-5.png", "/assets/project-5-detail-1.png", "/assets/project-5-detail-2.png"],
+    githubUrl: "https://github.com/adriantseee/google-maps-location-finder",
+    inProgress: false,
+    canViewGithub: false,
+    canViewKaggle: false,
+    canViewWebsite: true,
+    websiteUrl: "https://travel-together-psi.vercel.app/"
+  },
+  "project-six": {
+    id: "project-six",
+    title: "Travel Together",
+    description: "A collaborative travel planner combining live, Google Docs-style editing with powerful route planning and AI-generated itinerary suggestions. Seamlessly integrated with Google Maps Places API, it helps groups discover, coordinate, and navigate their next trip together.",
+    color: "#FFB1A0",
+    createdAt: "May 2025",
+    skills: ["React", "Tailwind CSS", "Mapbox", "API"],
+    images: ["/assets/project-6.png", "/assets/project-6-detail-1.png", "/assets/project-6-detail-2.png"],
+    githubUrl: "https://github.com/adriantseee/travel-together",
+    inProgress: false,
+    canViewGithub: false,
+    canViewKaggle: false,
+    canViewWebsite: true,
+    websiteUrl: "https://travel-together-psi.vercel.app/"
   }
 };
 
@@ -219,6 +254,25 @@ export default function ProjectPage({ params }) {
                 <path d="M5.42 11.094c-.287 0-.542.137-.703.348L3 13.535V5.928A.928.928 0 0 1 3.928 5h16.144a.928.928 0 0 1 .928.928v12.144a.928.928 0 0 1-.928.928H3.928A.928.928 0 0 1 3 18.072v-1.875l1.719-2.092a.704.704 0 0 1 .697-.345c.272.007.55.01.801.347l1.456 1.949 3.151-4.89a.704.704 0 0 1 .598-.337.717.717 0 0 1 .6.337l2.214 3.421 1.222-1.489a.728.728 0 0 1 .572-.276.74.74 0 0 1 .572.276l1.743 2.154v-7.186h-12.4c-.534 0-.535.015-.535.015-.294.054-.52.328-.52.631 0 .313.226.585.52.644 0 0 .096.008.535.008h11.223v1.177H5.42z"/>
               </svg>
               View on Kaggle
+            </div>
+          </a>
+        )}
+        {project.canViewWebsite && (
+          <a 
+            href={project.websiteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#FF6B6B] text-white border-3 border-black px-8 py-4 font-bold text-lg
+                      shadow-[8px_8px_0px_0px_rgba(0,0,0,0.3)] 
+                      hover:translate-x-[-4px] hover:translate-y-[-4px] 
+                      hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,0.2)]
+                      transition-all duration-200"
+          >
+            <div className="flex items-center gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+              </svg>
+              View Website
             </div>
           </a>
         )}

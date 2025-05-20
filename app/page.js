@@ -6,6 +6,15 @@ export default function Home() {
   const projects = [
     {
       id: 1,
+      title: "TraveLLM",
+      description: "A chatbot to help plan your next trip",
+      color: "#A5E8B0",
+      image: "/assets/project-2.png",
+      link: "/projects/project-two",
+      inProgress: false
+    },
+    {
+      id: 2,
       title: "Snipes",
       description: "An eBay web scraper to help find the best deals on Pokemon cards",
       color: "#FFB1A0",
@@ -14,28 +23,46 @@ export default function Home() {
       inProgress: false
     },
     {
-      id: 2,
+      id: 3,
       title: "B'AI'seball",
       description: "Predicts what pitch is coming next for any MLB pitcher",
-      color: "#A5E8B0",
-      image: "/assets/project-2.png",
-      link: "/projects/project-two",
+      color: "#A0C8FF",
+      image: "/assets/project-3.png",
+      link: "/projects/project-three",
       inProgress: false
     },
     {
-      id: 3,
-      title: "WIP",
-      description: "A work in progress",
-      color: "#A0C8FF",
-      image: "/project3.jpg",
-      link: "/",
-      inProgress: true
+      id: 4,
+      title: "Travel Together (pt. 1)",
+      description: "A Google Docs-like collaborative travel planner. Allows for live editing with peers.",
+      color: "#D7B5FF",
+      image: "/assets/project-4.png",
+      link: "/projects/project-four",
+      inProgress: false
     },
     {
-      id: 4,
+      id: 5,
+      title: "Travel Together (pt. 2)",
+      description: "Integrates Google Maps API to find locations of interest for your next trip.",
+      color: "#FFCBA0",
+      image: "/assets/project-5.png",
+      link: "/projects/project-five",
+      inProgress: false
+    },
+    {
+      id: 6,
+      title: "Travel Together",
+      description: "A collaborative travel planner with live editing, route planning, and chatbot assistance.",
+      color: "#A0E8E8",
+      image: "/assets/project-6.png",
+      link: "/projects/project-six",
+      inProgress: false
+    },
+    {
+      id: 7,
       title: "WIP",
       description: "A work in progress",
-      color: "#D7B5FF",
+      color: "#FFF0A0",
       image: "/project4.jpg",
       link: "/",
       inProgress: true
