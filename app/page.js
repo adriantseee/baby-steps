@@ -60,6 +60,15 @@ export default function Home() {
     },
     {
       id: 7,
+      title: "PS'AI'",
+      description: "An AI model trained to detect corner wear, scratches, and edge wear on Pokemon cards.",
+      color: "#FFD1DC",
+      image: "/assets/project-7.png",
+      link: "/projects/project-seven",
+      inProgress: false
+    },
+        {
+      id: 8,
       title: "WIP",
       description: "A work in progress",
       color: "#FFF0A0",

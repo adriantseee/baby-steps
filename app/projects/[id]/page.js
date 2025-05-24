@@ -39,7 +39,7 @@ const projectsData = {
     id: "project-three",
     title: "B'AI'seball",
     description: "A pitch-prediction AI designed to anticipate the next throw from MLB pitchers. While it's still its accuracy isnt perfect (~55%), I believe this idea holds promising potential as a strategic tool for baseball teams.",
-    color: "#A5E8B0",
+    color: "#A0C8FF",
     createdAt: "March-April 2025",
     skills: ["Python", "Jupyter Notebook", "Data Visualization", "Pandas", "Tensorflow", "Keras"],
     images: ["/assets/project-3.png", "/assets/project-3-detail-1.png", "/assets/project-3-detail-2.png"],
@@ -68,7 +68,7 @@ const projectsData = {
     id: "project-five",
     title: "Travel Together (Maps Integration)",
     description: "Enhanced with Google Maps API, this feature helps you pinpoint must-see locations and chart optimized routes directly within your shared itinerary. Whether searching by name or coordinates, it simplifies travel logistics significantly.",
-    color: "#D7B5FF",
+    color: "#FFCBA0",
     createdAt: "April-May 2025",
     skills: ["React", "Tailwind CSS", "Mapbox", "API"],
     images: ["/assets/project-5.png", "/assets/project-5-detail-1.png", "/assets/project-5-detail-2.png"],
@@ -83,7 +83,7 @@ const projectsData = {
     id: "project-six",
     title: "Travel Together",
     description: "A collaborative travel planner combining live, Google Docs-style editing with powerful route planning and AI-generated itinerary suggestions. Seamlessly integrated with Google Maps Places API, it helps groups discover, coordinate, and navigate their next trip together.",
-    color: "#FFB1A0",
+    color: "#A0E8E8",
     createdAt: "May 2025",
     skills: ["React", "Tailwind CSS", "Mapbox", "API"],
     images: ["/assets/project-6.png", "/assets/project-6-detail-1.png", "/assets/project-6-detail-2.png"],
@@ -93,6 +93,20 @@ const projectsData = {
     canViewKaggle: false,
     canViewWebsite: true,
     websiteUrl: "https://travel-together-psi.vercel.app/"
+  },
+  "project-seven": {
+    id: "project-seven",
+    title: 'PS"AI"',
+    description: "An AI model trained to detect corner wear, scratches, and edge wear on Pokemon cards. Will continue training it with other methods and for longer periods of time to improve accuarcy.",
+    color: "#FFD1DC",
+    createdAt: "May 2025",
+    skills: ["Python", "Tensorflow", "Keras", "CNN", "Image Processing"],
+    images: ["/assets/project-7.png", "/assets/project-7-detail-1.png", "/assets/project-7-detail-2.png"],
+    inProgress: false,
+    canViewGithub: false,
+    canViewKaggle: true,
+    canViewWebsite: false,
+    kaggleUrl: "https://www.kaggle.com/code/adriantseee2/pokemon-card-grade"
   }
 };
 
